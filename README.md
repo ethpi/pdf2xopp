@@ -87,4 +87,3 @@ Third-party components and their licenses are listed in [NOTICE](NOTICE).
 | [scikit-image](https://scikit-image.org/) | BSD 3-Clause |
 | [Inkscape](https://inkscape.org/) | GNU GPL 2.0+ |
 
-# pdf2xopp
