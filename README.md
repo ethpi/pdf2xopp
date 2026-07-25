@@ -14,8 +14,8 @@ A Python tool to convert PDF/SVG files to Xournal++ format (`.xopp`).
 - Extracts and embeds text spans with font mapping
 - Extracts and embeds bitmaps
 - Repairs LaTeX diacritic sequences (ä, ö, ü, …) incorrectly extracted by PyMuPDF
-- Detects and filters background grid/dots automatically in seperate layer
-- Optionally embeds invisible OCR text for full-text search in Xournal++ in white in seperate layer
+- Detects and filters background grid/dots automatically in separate layer
+- Optionally embeds invisible OCR text for full-text search in Xournal++ in white in separate layer
 - Appends pages to existing `.xopp` files
 
 
@@ -51,7 +51,7 @@ or (after chmod +x ./pdf2xopp.py)
 | `--append FILE.xopp` | Append pages to an existing `.xopp` file (created if missing) |
 | `--line` | Use centerline mode for handwriting strokes |
 | `--include-background` | Keep background grid lines as a separate layer |
-| `--include-ocr` | Embed invisible OCR text for search indexing in white in a separte layer |
+| `--include-ocr` | Embed invisible OCR text for search indexing in white in a separate layer |
 | `--debug N` | Enable debug output at verbosity level N |
 
 ### Known Limitations
