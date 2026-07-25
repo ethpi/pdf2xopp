@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=pdf2xopp
+Comment=Convert PDF/SVG to Xournal++
+Exec=bash -c 'pdf2xopp "$@"; echo; echo "--- Done. Press any key to close ---"; read' _ %F
+Icon=pdf2xopp.png
+Terminal=true
+MimeType=application/pdf;image/svg+xml;
+Categories=Office;

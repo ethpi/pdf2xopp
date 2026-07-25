@@ -1,0 +1,26 @@
+pdf2xopp - PDF to Xournal++ Converter
+Copyright (C) 2026  ethpi
+
+This program uses the following third-party software:
+
+- PyMuPDF (https://pymupdf.readthedocs.io/)
+  License: GNU AGPL 3.0
+  Copyright: Artifex Software, Inc.
+
+- OpenCV (https://opencv.org/)
+  License: Apache 2.0
+  Copyright: 2000-2024, Intel Corporation, Willow Garage Inc., Itseez
+
+- NumPy (https://numpy.org/)
+  License: BSD 3-Clause
+  Copyright: 2005-2024, NumPy Developers
+
+- scikit-image (https://scikit-image.org/)
+  License: BSD 3-Clause
+  Copyright: 2009-2024, the scikit-image team
+
+- Inkscape (https://inkscape.org/)
+  License: GNU GPL 2.0+
+  External tool, not bundled
+
+For full license texts, see the LICENSE file and the respective project websites.
