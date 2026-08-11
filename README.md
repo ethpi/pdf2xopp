@@ -37,7 +37,7 @@ A Python tool to convert PDF/SVG files to Xournal++ format (`.xopp`).
 
 ### Usage
 
-Download an rund `pdf2xopp.py` .
+Download and run `pdf2xopp.py` .
 
 ```
 python3 ./pdf2xopp.py [-h] [--append FILE.xopp] [--line] [--include-background] [--include-ocr] [--debug N] input.pdf
