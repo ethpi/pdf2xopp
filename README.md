@@ -5,10 +5,11 @@ A Python tool to convert PDF/SVG files to Xournal++ format (`.xopp`).
 ### Features
 
 - Converts vector PDFs (GoodNotes, OneNote, Xournal++) to editable Xournal++ strokes
+- Converts raster-only PDFs (e.g. Samsung Notes exported via [sdocx2pdf](https://github.com/squ1dd13/sdocx2pdf/)):
+- Converts SVGs using Inkscape (first transforms the SVG into a PDF) to editable Xournal++ objects. The conversion is currently somewhat unreliable.
 - Two handwriting modes:
   - **filled** (default): ink outlines rendered as filled area strokes
   - **line** (`--line`): ink outlines reduced to a centerline stroke via ellipse centroid heuristic
-- Converts raster-only PDFs (e.g. Samsung Notes exported via [sdocx2pdf](https://github.com/squ1dd13/sdocx2pdf/)):
   embedded bitmap preserved as background layer,
   re-vectorized via skeletonization into an editable stroke layer
 - Extracts and embeds text spans with font mapping
