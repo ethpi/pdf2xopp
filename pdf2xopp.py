@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = [
+#   "PyMuPDF",
+#   "opencv-python",
+#   "numpy",
+#   "scikit-image",
+# ]
+# ///
 """
 pdf2xopp.py  –  PDF → Xournal++ (.xopp)
 
